@@ -1,0 +1,221 @@
+
+body {
+    background-image: url("../public/OLD_PAPER_TEXTURE.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Viga", serif;
+}
+.heading-todo{
+    color: #603F26;
+    font-size: 45px;
+    font-family: "Viga", serif;
+}
+
+.todo-container{
+    align-content: center;
+    justify-items: center;
+}
+
+.items{
+    color: #603F26;
+    padding: 6px;
+    margin: 11px;
+    border-radius: 8px;
+    min-width: 290px;
+}
+
+.btn-delete{
+    background-color: rgb(226, 166, 166);
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+.btn-delete:hover{
+    background-color: #fd6f6f;
+}
+.btn-edit {
+    background-color: rgb(192, 217, 233);
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bolder;
+    margin-left: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+.btn-edit:hover{
+    background-color: #9cb3ff;
+}
+.add-btn{
+        background-color: rgb(31, 255, 11);
+            border: none;
+            padding: 6px;
+            font-weight: bolder;
+            margin-left: 4px;
+}
+
+.AllListItem{
+    margin-top: 20px;
+    height: 40px;
+    width: 400px;
+    margin-bottom: 15px;
+    align-content: center;
+    margin: auto;
+    padding: 2px;
+}
+table{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+th{
+    font-weight: 300;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #7f8ff4;
+}
+
+/* Helper */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background: #6C4E31;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 5px 16px;
+}
+
+.btn--primary:hover {
+    background: #c9905c;
+}
+
+.btn--primary:active {
+    background: #c9905c;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn--inside {
+    margin-left: -46px;
+}
+
+/* Form */
+.form__field {
+    width: 360px;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+    border: 0;
+    outline: 0;
+    padding: 12px 18px;
+}
+
+
+
+.checkbox-wrapper-31 {
+    position: relative;
+    display: inline-block;
+   
+}
+
+.checkbox-wrapper-31 .background {
+    fill: #c9c489;
+    transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 .stroke {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 100;
+    transition: ease all 0.6s;
+}
+
+.checkbox-wrapper-31 .check {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3px;
+    stroke-dashoffset: 26;
+    stroke-dasharray: 26;
+    transition: ease all 0.7s;
+}
+
+.checkbox-wrapper-31 input[type="checkbox"] {
+    position:absolute ;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    opacity: 0;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.checkbox-wrapper-31 input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+.checkbox-wrapper-31 input[type="checkbox"]:checked+svg .background {
+    fill: #73c046;
+}
+
+.checkbox-wrapper-31 input[type="checkbox"]:checked+svg .stroke {
+    stroke-dashoffset: 0;
+}
+
+.checkbox-wrapper-31 input[type="checkbox"]:checked+svg .check {
+    stroke-dashoffset: 0;
+}
+
+.completedTasks{
+    color: #404120;
+    background-color: #eccbb2;
+    border: none;
+    padding: 5px 15px ;
+    
+    font-size: 13px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.completedTasks:hover{
+    background-color: #fce3d1;
+}
